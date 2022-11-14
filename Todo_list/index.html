@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <div class="todo-containe">
+    <div class="todo-container">
         <header>
             <h1>
-                Todo List
+                Lista de tarefas
             </h1>
         </header>
         <form id="formulario-todo">
@@ -29,7 +29,7 @@
                 </button>
             </div>
         </form>
-        <form id="edit-form">
+        <form id="edit-form" class="hide">
             <p>Edite sua tarefa</p>
             <div class="form-control">
                 <input type="text" id="edit-input">
@@ -61,6 +61,7 @@
             </div>
         </div>
         <div id="todo-list">
+          <div class="todo done">
             <h3>Estou fazendo algumas tarefas</h3>
             <button class="finish-todo">
                 <i class="fa-solid fa-check"></i>
@@ -68,12 +69,14 @@
             <button class="edit-todo">
                 <i class="fa-solid fa-pen"></i>
             </button>
-            <button class="removo-todo">
+            <button class="remove-todo">
                 <i class="fa-solid fa-xmark"></i>
             </button>
-        </div>
+           </div> 
+            
+        
 
-        <div id="todo-list">
+          <div class="todo">
             <h3>Estudar programação</h3>
             <button class="finish-todo">
                 <i class="fa-solid fa-check"></i>
@@ -84,6 +87,7 @@
             <button class="removo-todo">
                 <i class="fa-solid fa-xmark"></i>
             </button>
+           </div>
         </div>
     </div>
 </body>
