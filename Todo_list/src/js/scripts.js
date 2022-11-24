@@ -22,8 +22,8 @@
   doneBtn.innerHTML = '<i class="fa-solid fa-check"></i>';
   todo.appendChild(doneBtn);
   
-  const doneBtn = document.createElement("button");
-  editBtnBtn.classList.add("edit-todo");
+  const editBtn = document.createElement("button");
+  editBtn.classList.add("edit-todo");
   editBtn.innerHTML = '<i class="fa-solid fa-pen"></i>';
   todo.appendChild(editBtn);
 
